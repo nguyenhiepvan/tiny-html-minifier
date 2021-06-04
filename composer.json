@@ -12,14 +12,26 @@
     "authors": [
         {
             "name": "Jens Törnell",
-            "email": "webblayout@gmail.com"
+            "email": "webblayout@gmail.com",
+            "role": "Maintainer"
+        },
+        {
+            "name": "Nguyễn Văn Hiệp",
+            "email": "nguyenheipvan.bka@gmail.com",
+            "role": "Developer"
         }
     ],
+    "homepage": "https://github.com/nguyenhiepvan/tiny-html-minifier",
     "require": {},
     "require-dev": {},
     "autoload": {
         "psr-4": {
-            "Nguyenhiep\\Minifier\\": "src/"
+            "Nguyenhiep\\Minifier": "src/"
         }
-    }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
