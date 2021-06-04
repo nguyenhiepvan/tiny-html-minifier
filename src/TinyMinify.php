@@ -2,7 +2,7 @@
 
 namespace Nguyenhiep\Minifier;
 
-use Nguyenhiep\TinyHtmlMinifier;
+use Nguyenhiep\Minifier\TinyHtmlMinifier;
 
 class TinyMinify
 {
